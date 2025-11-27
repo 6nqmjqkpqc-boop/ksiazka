@@ -138,3 +138,24 @@ button:hover {
     transform: rotateY(90deg);
     opacity: 0;
 }
+
+.quiz-btn {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: fit-content;
+    background: #ff66cc;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #ff99dd;
+    transition: 0.3s;
+}
+
+.quiz-btn:hover {
+    transform: scale(1.08);
+    background: #ff1493;
+    box-shadow: 0 0 18px #ff66cc;
+}
