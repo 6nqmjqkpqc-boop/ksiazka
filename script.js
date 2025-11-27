@@ -1,17 +1,17 @@
 const pages = [
     {title: "Dla mojej ukochanej Wikusi", text: "Książka o tym, dlaczego Cię kocham."},
 
-    {title: "Nasze pierwsze spotkanie", text: "Choć nie ma tu zdjęcia – ten moment mam w sercu. To był początek wszystkiego."},
+    {title: "Nasze pierwsze spotkanie", text: "Gdy cie zobaczyłem moje serce zaczęło bić szubciej bo sie w tobie zakochałem w tamtym momencie."},
 
-    {title: "Kocham Twój uśmiech", text: "Twój uśmiech rozjaśnia mój każdy dzień. Jest jak słońce w pochmurny poranek."},
+    {title: "Kocham Twój uśmiech", text: "Twój uśmiech bo dzięki nie czuje że nie zawiodłem."},
 
-    {title: "Kocham Twoje oczy", text: "Mają w sobie ciepło, spokój i coś, co sprawia, że chcę patrzeć w nie bez końca."},
+    {title: "Kocham Twoje oczy", text: "Mają w sobie dużo ciepła i SĄ STASZNIE PIĘKNE."},
 
     {title: "Kocham Twoją dobroć", text: "Twoje serce jest piękne. Zawsze myślisz o innych i dajesz im ciepło."},
 
-    {title: "Kocham Twoją obecność", text: "Przy Tobie czuję się bezpiecznie. Jakbym był dokładnie tam, gdzie powinienem."},
+    {title: "Kocham Twoją obecność", text: "Przy Tobie czuję się bezpiecznie i naprawdę kochanym."},
 
-    {title: "Kocham Twoje wsparcie", text: "Zawsze dodajesz mi sił. Czuję, że razem możemy wszystko."},
+    {title: "Kocham Twoje wsparcie", text: "Zawsze dodajesz mi sił nawet jak sama masz problemy."},
 
     {title: "Kocham Twoją wrażliwość", text: "Widzę, jak bardzo przejmujesz się światem – to jedna z Twoich najpiękniejszych cech."},
 
@@ -23,21 +23,21 @@ const pages = [
 
     {title: "Kocham Twoją delikatność", text: "Masz w sobie coś niezwykle subtelnego i pięknego."},
 
-    {title: "Kocham Twoją siłę", text: "Nawet gdy jest ciężko – nie poddajesz się. Podziwiam Cię."},
+    {title: "Kocham Twoją siłę", text: "Nawet gdy jest ciężko – nie poddajesz się."},
 
-    {title: "Kocham Twój śmiech", text: "Jest jak muzyka. Najpiękniejszy dźwięk mojego świata."},
+    {title: "Kocham Twój śmiech", text: "Jest jak odgłos radości która jest najważniejsza."},
 
-    {title: "Kocham Twoją bliskość", text: "Gdy jesteś obok – wszystko inne przestaje mieć znaczenie."},
+    {title: "Kocham Twoją bliskość", text: "Gdy jesteś obok zapomninam o wszystkim nawet w gorszych chwilach"},
 
-    {title: "Kocham, gdy mówisz 'będzie dobrze'", text: "I zawsze naprawdę wierzę, że masz rację."},
+    {title: "Kocham, gdy mówisz 'będzie dobrze'", text: "I zawsze naprawdę wierzę, że tak będzie."},
 
-    {title: "Kocham każdą chwilę z Tobą", text: "Każdy dzień jest dzięki Tobie piękniejszy."},
+    {title: "Kocham każdą chwilę z Tobą", text: "Każdy dzień jest dzięki Tobie piękniejszy i chce ich wiecej."},
 
-    {title: "Kocham Cię za wszystko", text: "Za to kim jesteś. Za to, co robisz. Za to, jak mnie kochasz."},
+    {title: "Kocham Cię za wszystko", text: "Za to kim jesteś. Za to, co robisz. Za to, jak mnie kochasz. Tak w skróce za całą ciebie"},
 
-    {title: "Na zawsze razem", text: "Obiecuję Ci – zawsze będę przy Tobie. Przez każdy dzień, przez każdy uśmiech, przez każdy trudny moment."},
+    {title: "Na zawsze razem", text: "Obiecuję ci, że zawsze będę przy Tobie. Przez każdy dzień, przez każdy uśmiech, przez każdy trudny moment."},
 
-    {title: "Kocham Cię nieskończenie", text: "Ty i ja – na zawsze. ❤️"}
+    {title: "Kocham Cię nieskończenie", text: "Ty i ja – na zawsze razem MIU. ❤️"}
 ];
 
 let currentPage = 0;
@@ -86,5 +86,6 @@ function spawnHearts() {
         setTimeout(() => heart.remove(), 6000);
     }, 400);
 }
+
 
 spawnHearts();
