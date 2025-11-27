@@ -1,7 +1,7 @@
 const pages = [
     {title: "Dla mojej ukochanej Wikusi", text: "Książka o tym, dlaczego Cię kocham."},
 
-    {title: "Nasze pierwsze spotkanie", text: "Gdy cie zobaczyłem moje serce zaczęło bić szubciej bo sie w tobie zakochałem w tamtym momencie."},
+    {title: "Nasze pierwsze spotkanie", text: "Gdy cie zobaczyłem moje serce zaczęło bić szybciej bo sie w tobie zakochałem w tamtym momencie."},
 
     {title: "Kocham Twój uśmiech", text: "Twój uśmiech bo dzięki nie czuje że nie zawiodłem."},
 
@@ -89,3 +89,4 @@ function spawnHearts() {
 
 
 spawnHearts();
+
