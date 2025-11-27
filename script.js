@@ -96,3 +96,38 @@ document.addEventListener("click", () => {
         audio.play().catch(() => {});
     }
 }, { once: true });
+
+// Animacja przewracania stron
+function animatePage(direction) {
+    const page = document.getElementById("page");
+
+    page.classList.remove("flip-next", "flip-prev");
+
+    void page.offsetWidth; // reset animacji
+
+    if (direction === "next") {
+        page.classList.add("flip-next");
+    } else {
+        page.classList.add("flip-prev");
+    }
+
+    setTimeout(() => {
+        updatePage(); // aktualizuje treść strony
+        page.classList.remove("flip-next", "flip-prev");
+    }, 300);
+}
+
+// PODMIANA Twoich przycisków:
+document.getElementById("next").onclick = () => {
+    if (currentPage < pages.length - 1) {
+        currentPage++;
+        animatePage("next");
+    }
+};
+
+document.getElementById("prev").onclick = () => {
+    if (currentPage > 0) {
+        currentPage--;
+        animatePage("prev");
+    }
+};
