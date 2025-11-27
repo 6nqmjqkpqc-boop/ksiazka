@@ -90,3 +90,9 @@ function spawnHearts() {
 
 spawnHearts();
 
+document.addEventListener("click", () => {
+    const audio = document.getElementById("music");
+    if (audio) {
+        audio.play().catch(() => {});
+    }
+}, { once: true });
