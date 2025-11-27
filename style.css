@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(#ffd6e8, #ffe9f3);
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.book-container {
+    padding: 20px;
+}
+
+.title {
+    color: #d81b60;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.subtitle {
+    color: #e75480;
+    margin-bottom: 20px;
+}
+
+.page {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(255, 100, 150, 0.4);
+    min-height: 300px;
+}
+
+h3 {
+    color: #d81b60;
+    font-size: 26px;
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    background: #ff5e96;
+    border: none;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background: #ff3f82;
+}
+
+#dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ff9dc2;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background: #ff3f82;
+}
+/* 🌸 Animowane spadające serca */
+.heart {
+    position: fixed;
+    top: -10px;
+    color: #ff5e96;
+    font-size: 18px;
+    animation: fall linear forwards;
+    opacity: 0.8;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0.2;
+    }
+}
+
+/* ✨ Pulsujący tytuł */
+.title {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+.game-btn {
+    display: inline-block;
+    margin-top: 25px;
+    background: #ff3f82;
+    padding: 14px 22px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(255, 50, 120, 0.4);
+}
+
+.game-btn:hover {
+    background: #ff0f62;
+}
