@@ -107,20 +107,6 @@ button:hover {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
-.game-btn {
-    display: inline-block;
-    margin-top: 25px;
-    background: #ff3f82;
-    padding: 14px 22px;
-    border-radius: 25px;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(255, 50, 120, 0.4);
-}
-
-.game-btn:hover {
-    background: #ff0f62;
 
 }
 /* Animacja przewracania strony */
@@ -159,3 +145,4 @@ button:hover {
     background: #ff1493;
     box-shadow: 0 0 18px #ff66cc;
 }
+
